@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="my personal portfolio website">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="icon" href="./images/mylogo (1).png">
+    <title>EMF</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <header class="navigation-bar"> 
+        <div class="logo">
+            <a href=""><img src="./images/mylogo (1).png" alt="page-logo"></a>
+        </div>
+        <div class="toggle-btn" onclick="Toggle()"; id="toggle-btn">
+            <button id="bt">&#9776;</button>
+            <button id="cross">&#10006;</button>
+        </div>
+        <navbar class="links-wrapper">
+            <ul class="ul">
+                <li><a href="#about" class="link">about</a></li>
+                <li><a href="#skill" class="link">skill</a></li>
+                <li><a href="#project" class="link">project</a></li>
+                <li><a href="#contact" class="link">contact</a></li>
+            </ul>
+        </navbar>
+         
+    </header>
+
+    <!--------main--------->
+    <main>
+        <!--=========about section=========-->
+        <section id="about" class="about" >
+            <section class="about-wrapper">
+                <div class="about-card" id="about-card-1" data-aos="flip-up">
+                    <div class="profile-pix">
+                        <img src="./images/my-profile-pix.jpg" alt="my-profile-pix">
+                        <!--<img src="http://drive.google.com/uc?id=1W2q3SWrc6qjU5dLOQBZZv2SapFpoNMXH">-->
+                    </div>
+                    <div class="profile">
+                        <h1>EMMANUEL MKPURUNCHI F.</h1>
+                        <span>Frontend web developer</span>&nbsp;&nbsp;|&nbsp;&nbsp; <span>Electrical Engineer</span>
+                    </div>
+                </div>
+                <div class="about-card" id="about-card-2">
+                    <article data-aos="flip-up">
+                        <h2>About</h2>
+                        <p>
+                            I am a frontend web developer, currently undergoing training
+                            at CWWTECHAFRICA Cohort 2 2022. My area of interest is in 
+                            the art of developing designs into fully functionl websites. 
+                            I am a team player and passionate about coding. With little 
+                            experience in frontend web development I work with
+                            the latest web technologies, like HTML5, css3, JS, React Js, 
+                            and Bootstrap5. I also build your web application to 
+                            mobile responsive.
+                        </p>
+                        <button class="hire-me"><a href="https://wa.me/234734534697" target="_blank">Hire me &#8663;</a> </button>
+                    </article>
+                </div>
+            </section>
+        </section><!--============about section end===========-->
+        <section id="skill" class="skill">
+            <h2>My Skills</h2>
+            <section class="skill-into" data-aos="flip-right">
+                <article>
+                    <p>
+                        As a frontend web developer, I work with the following 
+                        languages and frameworks which enables me to give the 
+                        best quality of a web performance, such as search engine 
+                        optimization, mobile responsiveness and browser speed.
+                    </p>
+                </article>
+            </section>
+            <section class="skill-wrapper" data-aos="flip-right">
+                <div>
+                    <img src="https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" alt="bootstrap5-logo">
+                </div>
+                <div>
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-svg-vector.svg" alt="css3-logo">
+                </div>
+                <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="html5-logo">
+                </div>
+                <div>
+                    <img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png" alt="js-logo">
+                </div>
+                <div>
+                    <img src="https://www.datocms-assets.com/45470/1631110818-logo-react-js.png" alt="react-logo">
+                </div>
+            </section>
+        </section>
+
+
+        <section id="project" class="project">
+            <h2>My Projects</h2>
+            <section class="project-wrapper">
+                <div class="card" id="eesa" data-aos="flip-left">
+                    <img src="./images/eesa.PNG" alt="eesa-website">
+                    <article>
+                        <h3>EESA website</h3>
+                        <p>
+                            Web application developed for final year students 
+                            of Electrical Engineering Unizik, Awka. The web 
+                            application helps the students to submit their project 
+                            to their supervisors online.
+                        </p>
+                        <a href="https://www.eesa5nalists.com.ng/" target="_blank" class="link">view site &#8663;</a>
+                    </article>
+                </div>
+                <div class="card"  data-aos="flip-left">
+                    <img src="./images/tcc.PNG" alt="tcc-website">
+                    <article>
+                        <h3>TCC website</h3>
+                        <p>
+                            TCC is a civil engineering construction company. 
+                            This site enables the company to showcase their 
+                            competency and easily connect with clients.
+                        </p>
+                        <a href="https://tcc-work.herokuapp.com/index.html" target="_blank">view site &#8663;</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="project-wrapper">
+                <div class="card" id="eesa" data-aos="flip-left">
+                    <img src="./images/st-anthony.PNG" alt="st-anthony-site">
+                    <article>
+                        <h3>St. Anthony parish</h3>
+                        <p>
+                            A church website developed for St. Anthony catholic church, 
+                            AIT road Alagbado Lagos state. Need more info about St. 
+                            Anthony Alagbado, visit their website.
+                        </p>
+                        <a href="https://emmadegreat.github.io/network-admin-login-page/" target="_blank">view site &#8663;</a>
+                    </article>
+                </div>
+                <div class="card"  data-aos="flip-left">
+                    <img src="./images/calculator-app.PNG" alt="calculator-app">
+                    <article>
+                        <h3>Simple calculator</h3>
+                        <p>
+                            A simple JS calculator application that performs basic arithmetic operations.
+                        </p>
+                        <a href="https://emmadegreat.github.io/Js__cal__app/" target="_blank">view site &#8663;</a>
+                    </article>
+                </div>
+            </section>
+
+            <section class="project-wrapper">
+                <div class="card" id="eesa" data-aos="flip-left">
+                    <img src="./images/network-admin-login.PNG" alt="netwk-page">
+                    <article>
+                        <h3>Network admin page</h3>
+                        <p>
+                            Network admin login/log out pages that enables the admin 
+                            to have access to the backend.
+                        </p>
+                        <a href="https://emmadegreat.github.io/network-admin-login-page/" target="_blank">view site &#8663;</a>
+                    </article>
+                </div>
+                <div class="card"  data-aos="flip-left">
+                    <!--<img src="./images/calculator-app.PNG" alt="calculator-app">
+                    <article>
+                        <h3>Simple calculator</h3>
+                        <p>
+                            A simple JS calculator application that performs basic arithmetic operations.
+                        </p>
+                        <a href="https://emmadegreat.github.io/Js__cal__app/" target="_blank">view site &#8663;</a>
+                    </article>-->
+                </div>
+            </section>
+        </section>
+
+        <!--==========email section===========-->
+        <section class="email-container" id="contact">
+            <div class="email-card" id="email-card" data-aos="flip-right">
+                <p>Have a project you want </p>
+                <p>me to bring to live?</p>
+                <button class='email-button' id="email-btn" onClick="Show()">send me a mail &#8663;</button>
+            </div>
+
+            
+            <div class="form-container" data-aos="flip-right" id="form">
+                <form action="" method="">
+                    <table>
+                        <tr>
+                            <td><label htmlFor="name">Name</label></td>
+                            <td><input type="text" name='name' required/></td>
+                        </tr>
+                        <tr>
+                            <td><label htmlFor="email">Email</label></td>
+                            <td><input type="email" name='email' required/></td>
+                        </tr>
+                        <tr>
+                            <td><label htmlFor="phone-number">Phone Number</label></td>
+                            <td><input type="number" name='phone-number' required/></td>
+                        </tr>
+                        <tr>
+                            <td><label htmlFor="message">Messge</label></td>
+                            <td><textarea name="message" id="mail"required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Submit" id='submit'/></td>
+                        </tr>
+                    </table>
+              
+                </form>
+            </div>
+        
+      </section>
+
+        <section data-aos="flip-left">
+            <h2 id="connect">Let's Connect</h2>
+            <section class="contact" id="contact">
+           
+                <div class="image-container">
+                    <a href="https://www.facebook.com/emmanuelf.mkpurunchi" target="_blank"><img src="./images/facebook-icon.png" alt="facebook"></a>
+                    <a href="https://twitter.com/Emmadegreat_" target="_blank"><img src="./images/twitter-icon-1.png" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/in/emmanuel-f-mkpurunchi-2409aa112/" target="_blank"><img src="./images/linkedin-icon.png" alt="linkedin"></a>
+                    <a href="https://github.com/Emmadegreat/" target="_blank"><img src="./images/github-logo.jpg" alt="github"></a>
+                </div>-->
+
+            </section>
+        </section>
+    </main>
+    
+
+    <footer>
+        <section class="footer-wrapper">
+            <div class="box">
+                <address>
+                    <div class="scroll-top page-scroll visible-xs visible-sm visible-m visible-lg"><!---SCROLL TO TOP BUTTON-->
+                    <a href="#" class="btn btn-warning">
+                    <i class="fa fa-chevron-up"></i>
+                    </a>
+                  </div>
+                </address>
+            </div>
+            <div class="box">
+                <h4>Phone number</h4>
+                <details>
+                    <p>+234-703-453-4697</p>
+                </details>
+            </div>
+            <div class="box">
+                <h4>Email</h4>
+                <details>
+                    <div>
+                        <p>emf0046@gmail.com</p>
+                    </div>
+                </details>
+            </div>
+        </section><hr>
+        <section class="copyright">
+            <span>All Right Reserved &nbsp;| &nbsp;&copy; EMF&nbsp; | &nbsp;</span> <span id="year"></span>
+        </section>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration:2000,once:false
+        })
+    </script>
+    <script type="" src="./index.js"></script>
+</body>
+</html>
