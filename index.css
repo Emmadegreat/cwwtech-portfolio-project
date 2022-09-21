@@ -30,6 +30,9 @@ p{
     height: 50px;
     padding: 0.2rem 0rem;
 }
+.my-number{
+    color: #fdf3f2;
+}
 navbar ul{
     display: flex;
     list-style-type: none;
@@ -126,6 +129,9 @@ navbar ul li a:hover{
     .navigation-bar{
         padding: 1rem 2rem;
         justify-content: space-between;
+    }
+    .my-number p{
+        font-size: 0.8rem;
     }
 }
 
