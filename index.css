@@ -208,6 +208,10 @@ h3{
     transition: all 0.3s ease-in-out;
     cursor: pointer;
 }
+.about-card .hire-me a{
+    color: rgb(33, 32, 32);
+    text-decoration: none;
+}
 
 /*==============skill section===============*/
 .skill{
@@ -575,6 +579,29 @@ footer{
     flex-basis: 32%;
     padding: 1rem;
     text-align: center;
+}
+.quick-link ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+}
+.quick-link ul li{
+    list-style-type: none;
+    padding: 0rem 0.5rem;
+}
+.quick-link ul li a{
+    text-decoration: none;
+    color: #bab0b0;
+    text-transform: capitalize;
+}
+.quick-link ul li a:hover{
+    text-decoration: underline;
+    color: rgb(226, 224, 25);
+}
+.box .phone-number{
+    padding-top: 1.5rem;
 }
 .scroll-top{
     background-color: yellow;
