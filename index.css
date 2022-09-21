@@ -21,7 +21,6 @@ p{
     background: rgb(33, 32, 32);
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid green;
     position: fixed;
     z-index: 4000;
 }
