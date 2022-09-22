@@ -122,11 +122,11 @@ navbar ul li a:hover{
         margin-bottom: 2px solid #787878;
         background: none;
     }
-    
+
 }
 @media screen and (max-width:540px){
     .navigation-bar{
-        padding: 1rem 2rem;
+        padding: 1rem 1.5rem;
         justify-content: space-between;
     }
     .my-number p{
