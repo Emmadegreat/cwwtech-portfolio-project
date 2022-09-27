@@ -1,10 +1,10 @@
+let navbar = document.querySelector('.links-wrapper');
+
 function Toggle() {
-    let navbar = document.querySelector('.links-wrapper');
     navbar.classList.toggle('active');
 
 }
 
-let navbar = document.querySelector('.links-wrapper');
 document.querySelectorAll('.link').forEach(n => n.addEventListener('click', () =>{
     navbar.classList.remove('active');
 }));
@@ -38,5 +38,5 @@ toggle.addEventListener('click', (e) => {
         bt.style.display = 'block';
     }
 })
-    
+
 
