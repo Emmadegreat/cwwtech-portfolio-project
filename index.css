@@ -140,7 +140,7 @@ navbar ul li a:hover{
 }
 .hero-section:before{
     content: '';
-    background: url('/images/developer\ \(1\).png') no-repeat center center/100% 100%;
+    background: url('./images/developer.png') no-repeat center center/100% 100%;
     z-index: 1000;
     height: 100%;
     width: 100%;
